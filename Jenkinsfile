@@ -30,15 +30,4 @@ pipeline {
       }
     }
   }
-  post {
-    always {
-      
-    }
-    success {
-      
-    }
-    failue {
-      
-    }
-  }
 }
