@@ -13,7 +13,6 @@ pipeline {
     stage("build") {
       steps {
         echo 'Building the application..'
-        echo "${NEW_VERSION}"
         sh "mvn install"
       }
     }
